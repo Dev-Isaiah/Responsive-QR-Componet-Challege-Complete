@@ -1,0 +1,90 @@
+/* CALLING FONT FAMILY */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+}
+
+
+:root{
+
+
+    /* BACKGROUND COLORS */
+    --global-primary-background-color: #D6E2F0;
+    --global-secondary-background-color: #FFFFFF;
+   
+    /* TEXT COLORS */
+    --global-primary-text-color: #1F3251;
+    --global-secondary-text-color: #7B879D;
+
+
+    /* BORDER RADIUSES */
+    --global-border-section-bevel: 25px;
+    --global-border-element-bevel: 15px;
+}
+
+
+body{
+    background-color: var(--global-primary-background-color);
+    font-size: var(--global-font-size);
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+    "main"
+    "footer";
+    align-items: center;
+}
+
+
+h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--global-primary-text-color);
+}
+
+
+p{
+    color: var(--global-secondary-text-color);
+    font-size: 1.1rem;
+}
+
+
+main{
+    grid-area: main;
+    width: 300px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 36px;
+    background-color: var(--global-secondary-background-color);
+    padding: 20px;
+    text-align: center;
+    border-radius: var(--global-border-section-bevel);
+}
+
+
+img{
+    width: 100%;
+    border-radius: var(--global-border-element-bevel);
+}
+
+
+.qr-text{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+footer{
+    grid-area: footer;
+    background-color: var(--global-secondary-background-color);
+    padding: 12px;
+    text-align: center;
+    align-self: self-end;
+}
