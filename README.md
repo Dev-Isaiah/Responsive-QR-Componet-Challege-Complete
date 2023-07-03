@@ -13,4 +13,4 @@ CSS(Cascading Style Sheets) was utilized extensively to define the presentation 
  <hr>
 
 ### Solution Link:
-To explore the website and see the implemented solution in action, please visit the following link: https://devart1st.github.io/QR-Code-Componet-Challenge-Frontend-Mentor/
+To explore the website and see the implemented solution in action, please visit the following link: https://devart1st.github.io/Responsive-QR-Componet-Challege-Complete/
